@@ -14,7 +14,7 @@ class profiles::elastic::elasticsearch (
   class { 'elasticsearch':
     manage_repo  => true,
     repo_version => $repo_version,
-    java_install => false,
+#    java_install => false,
     jvm_options => [
       '-Xms256m',
       '-Xmx256m'

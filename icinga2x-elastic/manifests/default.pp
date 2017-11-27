@@ -36,7 +36,7 @@ class { '::profiles::icinga::icingaweb2':
 }
 ->
 class { '::profiles::elastic::elasticsearch':
-  repo_version => '5.x',
+  repo_version => '6.x',
 }
 ->
 class { '::profiles::elastic::kibana':
